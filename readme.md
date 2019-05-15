@@ -25,14 +25,14 @@
 - Start server
 `php artisan serve`  
 ## Task
-You should design a page contains showing products on the page.  
-You should design a page contains showing product's details.  
-You should add a contact us form which contains of email and a text field and is exists on both pages.    
+You should design a page which shows products list.  
+You should design a page which shows products' details.  
+You should add a "Contact Us" form which contains email and text field. This component should be present on both previous pages.    
 ### Hints
-- Page should implement as SPA (use vue router)
+- Page should be implemented as SPA (use vue router)
 - Consider responsive design
 - Consider separate modules
 - use `http://localhost:8000/product` url to get products. This url accepts `page` query parameter to fetch paginate data.
-- use `http://localhost:8000/product/{product_id}` url to get product's details.
-- use `http://localhost:8000/contact` with `post` method contains `email` and `text` to save a contact information in server and show a notification to client.
+- use `http://localhost:8000/product/{product_id}` url to get products' details.
+- use `http://localhost:8000/contact` with `post` method containing `email` and `text` to save a contact information in server and shows a notification to client.
 - Products should have a `Add To Basket` button which does not do anything for now.
